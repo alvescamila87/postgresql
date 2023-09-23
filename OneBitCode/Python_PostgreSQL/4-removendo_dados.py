@@ -7,7 +7,7 @@ sql = """
     WHERE id = %s
 """
 
-cursor_obj.execute(sql, (10,))
+cursor_obj.execute(sql, (12,))
 
 connection_db.commit()
 print("Dados removidos com sucesso!")
